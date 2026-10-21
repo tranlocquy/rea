@@ -2,7 +2,7 @@
 name: reverse-engineer-anything
 description: Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA. Use shipped-artifact or requested runtime evidence to explain features, compare versions, decompile code, or guide a reconstruction. Skip REA for ordinary source-repository architecture analysis.
 metadata:
-  version: "37"
+  version: "38"
 ---
 
 # REA
@@ -201,6 +201,8 @@ as complete while required questions remain open.
 
 ## Read only the relevant guide
 
+- Function-by-function native source reconstruction and matching claims:
+  [references/native-recovery.md](references/native-recovery.md)
 - Native binaries, managed assemblies, archives, and extraction:
   [references/native-and-artifacts.md](references/native-and-artifacts.md)
 - ASARs, extracted JavaScript, feature tracing, and version comparison:

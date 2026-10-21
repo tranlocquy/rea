@@ -27,6 +27,10 @@ read a single object.
 
 ## Native targets
 
+For requested source reconstruction or compiler matching, follow the
+[native recovery workflow](native-recovery.md) for function boundaries,
+verification claims, and coverage accounting.
+
 After `open_binary`, use focused search, procedure, or function tools directly.
 Use `binary_overview` when target metadata or inventory context helps answer the
 question. Prefer literal search, names, decompilation, callers, callees, and
